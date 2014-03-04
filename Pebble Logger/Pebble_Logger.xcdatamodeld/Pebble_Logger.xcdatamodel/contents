@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PebbleLog" representedClassName="PebbleLog">
+        <attribute name="timeStamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="xLog" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yLog" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="zLog" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="PebbleRecord" representedClassName="PebbleRecord" syncable="YES">
+        <relationship name="logs" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PebbleLog" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PebbleLog" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PebbleRecord" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

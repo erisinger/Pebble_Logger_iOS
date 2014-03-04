@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93969ECC18A42A93004B2AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ECB18A42A93004B2AB5 /* Foundation.framework */; };
+		93969ECE18A42A93004B2AB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ECD18A42A93004B2AB5 /* CoreGraphics.framework */; };
+		93969ED018A42A93004B2AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ECF18A42A93004B2AB5 /* UIKit.framework */; };
+		93969ED218A42A93004B2AB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ED118A42A93004B2AB5 /* CoreData.framework */; };
+		93969ED818A42A93004B2AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93969ED618A42A93004B2AB5 /* InfoPlist.strings */; };
+		93969EDA18A42A93004B2AB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93969ED918A42A93004B2AB5 /* main.m */; };
+		93969EDE18A42A93004B2AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93969EDD18A42A93004B2AB5 /* AppDelegate.m */; };
+		93969EE118A42A93004B2AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93969EDF18A42A93004B2AB5 /* Main.storyboard */; };
+		93969EE418A42A93004B2AB5 /* Pebble_Logger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93969EE218A42A93004B2AB5 /* Pebble_Logger.xcdatamodeld */; };
+		93969EE718A42A93004B2AB5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93969EE618A42A93004B2AB5 /* MasterViewController.m */; };
+		93969EEA18A42A93004B2AB5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93969EE918A42A93004B2AB5 /* DetailViewController.m */; };
+		93969EEC18A42A93004B2AB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93969EEB18A42A93004B2AB5 /* Images.xcassets */; };
+		93969EF318A42A93004B2AB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969EF218A42A93004B2AB5 /* XCTest.framework */; };
+		93969EF418A42A93004B2AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ECB18A42A93004B2AB5 /* Foundation.framework */; };
+		93969EF518A42A93004B2AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ECF18A42A93004B2AB5 /* UIKit.framework */; };
+		93969EF618A42A93004B2AB5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969ED118A42A93004B2AB5 /* CoreData.framework */; };
+		93969EFE18A42A93004B2AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93969EFC18A42A93004B2AB5 /* InfoPlist.strings */; };
+		93969F0018A42A93004B2AB5 /* Pebble_LoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93969EFF18A42A93004B2AB5 /* Pebble_LoggerTests.m */; };
+		93969F0E18A42B3C004B2AB5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F0918A42B3C004B2AB5 /* CoreBluetooth.framework */; };
+		93969F0F18A42B3C004B2AB5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F0A18A42B3C004B2AB5 /* CoreMotion.framework */; };
+		93969F1018A42B3C004B2AB5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F0B18A42B3C004B2AB5 /* ExternalAccessory.framework */; };
+		93969F1118A42B3C004B2AB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F0C18A42B3C004B2AB5 /* libz.dylib */; };
+		93969F1218A42B3C004B2AB5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F0D18A42B3C004B2AB5 /* MessageUI.framework */; };
+		93969F2418A44756004B2AB5 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F2218A44756004B2AB5 /* PebbleKit.framework */; };
+		93969F2518A44756004B2AB5 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93969F2318A44756004B2AB5 /* PebbleVendor.framework */; };
+		939A549218AFEA21009B736D /* PebbleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A549118AFEA21009B736D /* PebbleLog.m */; };
+		939A549518B18CD1009B736D /* PebbleRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A549418B18CD1009B736D /* PebbleRecord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93969EF718A42A93004B2AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93969EC018A42A92004B2AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93969EC718A42A93004B2AB5;
+			remoteInfo = "Pebble Logger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93969EC818A42A93004B2AB5 /* Pebble Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pebble Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93969ECB18A42A93004B2AB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93969ECD18A42A93004B2AB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93969ECF18A42A93004B2AB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93969ED118A42A93004B2AB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93969ED518A42A93004B2AB5 /* Pebble Logger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pebble Logger-Info.plist"; sourceTree = "<group>"; };
+		93969ED718A42A93004B2AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93969ED918A42A93004B2AB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93969EDB18A42A93004B2AB5 /* Pebble Logger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pebble Logger-Prefix.pch"; sourceTree = "<group>"; };
+		93969EDC18A42A93004B2AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93969EDD18A42A93004B2AB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93969EE018A42A93004B2AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93969EE318A42A93004B2AB5 /* Pebble_Logger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pebble_Logger.xcdatamodel; sourceTree = "<group>"; };
+		93969EE518A42A93004B2AB5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		93969EE618A42A93004B2AB5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		93969EE818A42A93004B2AB5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		93969EE918A42A93004B2AB5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		93969EEB18A42A93004B2AB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93969EF118A42A93004B2AB5 /* Pebble LoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pebble LoggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93969EF218A42A93004B2AB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93969EFB18A42A93004B2AB5 /* Pebble LoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pebble LoggerTests-Info.plist"; sourceTree = "<group>"; };
+		93969EFD18A42A93004B2AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93969EFF18A42A93004B2AB5 /* Pebble_LoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pebble_LoggerTests.m; sourceTree = "<group>"; };
+		93969F0918A42B3C004B2AB5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		93969F0A18A42B3C004B2AB5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		93969F0B18A42B3C004B2AB5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		93969F0C18A42B3C004B2AB5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		93969F0D18A42B3C004B2AB5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		93969F2218A44756004B2AB5 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../../../pebble-dev/PebbleSDK-2.0.0/PebbleKit-iOS/PebbleKit.framework"; sourceTree = "<group>"; };
+		93969F2318A44756004B2AB5 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../../../pebble-dev/PebbleSDK-2.0.0/PebbleKit-iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
+		939A549018AFEA21009B736D /* PebbleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PebbleLog.h; sourceTree = "<group>"; };
+		939A549118AFEA21009B736D /* PebbleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PebbleLog.m; sourceTree = "<group>"; };
+		939A549318B18CD1009B736D /* PebbleRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PebbleRecord.h; sourceTree = "<group>"; };
+		939A549418B18CD1009B736D /* PebbleRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PebbleRecord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93969EC518A42A93004B2AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93969F2418A44756004B2AB5 /* PebbleKit.framework in Frameworks */,
+				93969F2518A44756004B2AB5 /* PebbleVendor.framework in Frameworks */,
+				93969F0E18A42B3C004B2AB5 /* CoreBluetooth.framework in Frameworks */,
+				93969F0F18A42B3C004B2AB5 /* CoreMotion.framework in Frameworks */,
+				93969F1018A42B3C004B2AB5 /* ExternalAccessory.framework in Frameworks */,
+				93969F1118A42B3C004B2AB5 /* libz.dylib in Frameworks */,
+				93969F1218A42B3C004B2AB5 /* MessageUI.framework in Frameworks */,
+				93969ECE18A42A93004B2AB5 /* CoreGraphics.framework in Frameworks */,
+				93969ED218A42A93004B2AB5 /* CoreData.framework in Frameworks */,
+				93969ED018A42A93004B2AB5 /* UIKit.framework in Frameworks */,
+				93969ECC18A42A93004B2AB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93969EEE18A42A93004B2AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93969EF318A42A93004B2AB5 /* XCTest.framework in Frameworks */,
+				93969EF618A42A93004B2AB5 /* CoreData.framework in Frameworks */,
+				93969EF518A42A93004B2AB5 /* UIKit.framework in Frameworks */,
+				93969EF418A42A93004B2AB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93969EBF18A42A92004B2AB5 = {
+			isa = PBXGroup;
+			children = (
+				93969ED318A42A93004B2AB5 /* Pebble Logger */,
+				93969EF918A42A93004B2AB5 /* Pebble LoggerTests */,
+				93969ECA18A42A93004B2AB5 /* Frameworks */,
+				93969EC918A42A93004B2AB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93969EC918A42A93004B2AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93969EC818A42A93004B2AB5 /* Pebble Logger.app */,
+				93969EF118A42A93004B2AB5 /* Pebble LoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93969ECA18A42A93004B2AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93969F2218A44756004B2AB5 /* PebbleKit.framework */,
+				93969F2318A44756004B2AB5 /* PebbleVendor.framework */,
+				93969F0918A42B3C004B2AB5 /* CoreBluetooth.framework */,
+				93969F0A18A42B3C004B2AB5 /* CoreMotion.framework */,
+				93969F0B18A42B3C004B2AB5 /* ExternalAccessory.framework */,
+				93969F0C18A42B3C004B2AB5 /* libz.dylib */,
+				93969F0D18A42B3C004B2AB5 /* MessageUI.framework */,
+				93969ECB18A42A93004B2AB5 /* Foundation.framework */,
+				93969ECD18A42A93004B2AB5 /* CoreGraphics.framework */,
+				93969ECF18A42A93004B2AB5 /* UIKit.framework */,
+				93969ED118A42A93004B2AB5 /* CoreData.framework */,
+				93969EF218A42A93004B2AB5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93969ED318A42A93004B2AB5 /* Pebble Logger */ = {
+			isa = PBXGroup;
+			children = (
+				93969EDC18A42A93004B2AB5 /* AppDelegate.h */,
+				93969EDD18A42A93004B2AB5 /* AppDelegate.m */,
+				93969EDF18A42A93004B2AB5 /* Main.storyboard */,
+				93969EE518A42A93004B2AB5 /* MasterViewController.h */,
+				93969EE618A42A93004B2AB5 /* MasterViewController.m */,
+				93969EE818A42A93004B2AB5 /* DetailViewController.h */,
+				93969EE918A42A93004B2AB5 /* DetailViewController.m */,
+				93969EEB18A42A93004B2AB5 /* Images.xcassets */,
+				93969EE218A42A93004B2AB5 /* Pebble_Logger.xcdatamodeld */,
+				939A549318B18CD1009B736D /* PebbleRecord.h */,
+				939A549418B18CD1009B736D /* PebbleRecord.m */,
+				939A549018AFEA21009B736D /* PebbleLog.h */,
+				939A549118AFEA21009B736D /* PebbleLog.m */,
+				93969ED418A42A93004B2AB5 /* Supporting Files */,
+			);
+			path = "Pebble Logger";
+			sourceTree = "<group>";
+		};
+		93969ED418A42A93004B2AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93969ED518A42A93004B2AB5 /* Pebble Logger-Info.plist */,
+				93969ED618A42A93004B2AB5 /* InfoPlist.strings */,
+				93969ED918A42A93004B2AB5 /* main.m */,
+				93969EDB18A42A93004B2AB5 /* Pebble Logger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93969EF918A42A93004B2AB5 /* Pebble LoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93969EFF18A42A93004B2AB5 /* Pebble_LoggerTests.m */,
+				93969EFA18A42A93004B2AB5 /* Supporting Files */,
+			);
+			path = "Pebble LoggerTests";
+			sourceTree = "<group>";
+		};
+		93969EFA18A42A93004B2AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93969EFB18A42A93004B2AB5 /* Pebble LoggerTests-Info.plist */,
+				93969EFC18A42A93004B2AB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93969EC718A42A93004B2AB5 /* Pebble Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93969F0318A42A93004B2AB5 /* Build configuration list for PBXNativeTarget "Pebble Logger" */;
+			buildPhases = (
+				93969EC418A42A93004B2AB5 /* Sources */,
+				93969EC518A42A93004B2AB5 /* Frameworks */,
+				93969EC618A42A93004B2AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pebble Logger";
+			productName = "Pebble Logger";
+			productReference = 93969EC818A42A93004B2AB5 /* Pebble Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93969EF018A42A93004B2AB5 /* Pebble LoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93969F0618A42A93004B2AB5 /* Build configuration list for PBXNativeTarget "Pebble LoggerTests" */;
+			buildPhases = (
+				93969EED18A42A93004B2AB5 /* Sources */,
+				93969EEE18A42A93004B2AB5 /* Frameworks */,
+				93969EEF18A42A93004B2AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93969EF818A42A93004B2AB5 /* PBXTargetDependency */,
+			);
+			name = "Pebble LoggerTests";
+			productName = "Pebble LoggerTests";
+			productReference = 93969EF118A42A93004B2AB5 /* Pebble LoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93969EC018A42A92004B2AB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Erik Risinger";
+				TargetAttributes = {
+					93969EC718A42A93004B2AB5 = {
+						DevelopmentTeam = LYM393R5FZ;
+					};
+					93969EF018A42A93004B2AB5 = {
+						TestTargetID = 93969EC718A42A93004B2AB5;
+					};
+				};
+			};
+			buildConfigurationList = 93969EC318A42A93004B2AB5 /* Build configuration list for PBXProject "Pebble Logger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93969EBF18A42A92004B2AB5;
+			productRefGroup = 93969EC918A42A93004B2AB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93969EC718A42A93004B2AB5 /* Pebble Logger */,
+				93969EF018A42A93004B2AB5 /* Pebble LoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93969EC618A42A93004B2AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93969EEC18A42A93004B2AB5 /* Images.xcassets in Resources */,
+				93969ED818A42A93004B2AB5 /* InfoPlist.strings in Resources */,
+				93969EE118A42A93004B2AB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93969EEF18A42A93004B2AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93969EFE18A42A93004B2AB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93969EC418A42A93004B2AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939A549218AFEA21009B736D /* PebbleLog.m in Sources */,
+				93969EEA18A42A93004B2AB5 /* DetailViewController.m in Sources */,
+				93969EE718A42A93004B2AB5 /* MasterViewController.m in Sources */,
+				93969EE418A42A93004B2AB5 /* Pebble_Logger.xcdatamodeld in Sources */,
+				93969EDE18A42A93004B2AB5 /* AppDelegate.m in Sources */,
+				939A549518B18CD1009B736D /* PebbleRecord.m in Sources */,
+				93969EDA18A42A93004B2AB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93969EED18A42A93004B2AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93969F0018A42A93004B2AB5 /* Pebble_LoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93969EF818A42A93004B2AB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93969EC718A42A93004B2AB5 /* Pebble Logger */;
+			targetProxy = 93969EF718A42A93004B2AB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93969ED618A42A93004B2AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93969ED718A42A93004B2AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93969EDF18A42A93004B2AB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93969EE018A42A93004B2AB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93969EFC18A42A93004B2AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93969EFD18A42A93004B2AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93969F0118A42A93004B2AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93969F0218A42A93004B2AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93969F0418A42A93004B2AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/erikrisinger/pebble-dev/PebbleSDK-2.0.0/PebbleKit-iOS/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebble Logger/Pebble Logger-Prefix.pch";
+				INFOPLIST_FILE = "Pebble Logger/Pebble Logger-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93969F0518A42A93004B2AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/erikrisinger/pebble-dev/PebbleSDK-2.0.0/PebbleKit-iOS/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebble Logger/Pebble Logger-Prefix.pch";
+				INFOPLIST_FILE = "Pebble Logger/Pebble Logger-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93969F0718A42A93004B2AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pebble Logger.app/Pebble Logger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebble Logger/Pebble Logger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pebble LoggerTests/Pebble LoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93969F0818A42A93004B2AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pebble Logger.app/Pebble Logger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebble Logger/Pebble Logger-Prefix.pch";
+				INFOPLIST_FILE = "Pebble LoggerTests/Pebble LoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93969EC318A42A93004B2AB5 /* Build configuration list for PBXProject "Pebble Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93969F0118A42A93004B2AB5 /* Debug */,
+				93969F0218A42A93004B2AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93969F0318A42A93004B2AB5 /* Build configuration list for PBXNativeTarget "Pebble Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93969F0418A42A93004B2AB5 /* Debug */,
+				93969F0518A42A93004B2AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93969F0618A42A93004B2AB5 /* Build configuration list for PBXNativeTarget "Pebble LoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93969F0718A42A93004B2AB5 /* Debug */,
+				93969F0818A42A93004B2AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93969EE218A42A93004B2AB5 /* Pebble_Logger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93969EE318A42A93004B2AB5 /* Pebble_Logger.xcdatamodel */,
+			);
+			currentVersion = 93969EE318A42A93004B2AB5 /* Pebble_Logger.xcdatamodel */;
+			path = Pebble_Logger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93969EC018A42A92004B2AB5 /* Project object */;
+}
